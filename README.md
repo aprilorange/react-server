@@ -1,6 +1,6 @@
 # react-server
 
-This is an example show you guys how to use React on the server-side, if you got any better idea helping this example get improved, feel free to send PRs to me. :beer:
+This is an example showing you guys how to use React on the server-side, if you got any better idea helping this example get improved, feel free to send PRs to me. :beer:
 
 # Technologies
 
