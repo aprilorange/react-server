@@ -1,0 +1,42 @@
+{
+  "name": "react-server",
+  "version": "1.0.0",
+  "description": "react server-side using example.",
+  "main": "core/server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www",
+    "build": "gulp babel",
+    "postinstall": "gulp build"
+  },
+  "bin": {
+    "react-server": "bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilorange/express-babel-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprilorange/express-babel-starter/issues"
+  },
+  "homepage": "https://github.com/aprilorange/express-babel-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "fibers": "^1.0.6",
+    "morgan": "^1.6.1",
+    "react": "^0.13.3",
+    "react-async": "^2.1.0",
+    "react-document-title": "^1.0.3",
+    "react-router-component": "^0.26.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-webpack": "^1.5.0",
+    "jsx-loader": "^0.13.2",
+    "webpack-stream": "^2.1.0"
+  }
+}
