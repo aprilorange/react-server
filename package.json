@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/www",
-    "build": "gulp babel",
+    "build": "gulp build",
     "postinstall": "gulp build"
   },
   "bin": {
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aprilorange/express-babel-starter.git"
+    "url": "git+https://github.com/aprilorange/react-server.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aprilorange/express-babel-starter/issues"
+    "url": "https://github.com/aprilorange/react-server/issues"
   },
-  "homepage": "https://github.com/aprilorange/express-babel-starter#readme",
+  "homepage": "https://github.com/aprilorange/react-server#readme",
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
@@ -35,7 +35,6 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.0",
-    "gulp-webpack": "^1.5.0",
     "jsx-loader": "^0.13.2",
     "webpack-stream": "^2.1.0"
   }
