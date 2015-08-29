@@ -10,7 +10,7 @@ var paths = {
 gulp.task('babel', function() {
   return gulp.src(paths.babel)
     .pipe(babel({
-        stage: 1
+        stage: 0
       }))
     .pipe(gulp.dest('./core'))
 })

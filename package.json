@@ -30,12 +30,18 @@
     "react": "^0.13.3",
     "react-async": "^2.1.0",
     "react-document-title": "^1.0.3",
-    "react-router-component": "^0.26.0"
+    "react-redux": "^1.0.0",
+    "react-router-component": "^0.26.0",
+    "redux": "^1.0.1",
+    "reflux": "^0.2.12"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.0",
+    "gulp-stylus": "^2.0.6",
     "jsx-loader": "^0.13.2",
+    "nib": "^1.1.0",
+    "redux-devtools": "^1.1.1",
     "webpack-stream": "^2.1.0"
   }
 }
