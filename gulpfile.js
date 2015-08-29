@@ -3,13 +3,23 @@ var gulp = require('gulp'),
   webpack = require('webpack-stream'),
   webpackConfig = require('./webpack.config'),
   nib = require('nib'),
-  stylus = require('gulp-stylus')
+  stylus = require('gulp-stylus'),
+  nodemon = require('gulp-nodemon'),
+  run = require('run-sequence')
  
 var paths = {
   babel: './src/*/*.js',
   stylMain: './src/styl/main.styl',
   css: './build/css'
 }
+
+gulp.task('start', function() {
+  nodemon({
+    script: 'server.js'
+  , ext: 'js'
+  , env: { 'NODE_ENV': 'development' }
+  })
+})
  
 gulp.task('babel', function() {
   return gulp.src(paths.babel)
@@ -46,6 +56,10 @@ gulp.task('watch', function() {
  
 gulp.task('build', ['babel', 'webpack', 'stylus'])
  
-gulp.task('build-dev', ['babel', 'webpack-dev', 'stylus'])
+gulp.task('build-dev', function(cb) {
+  run('babel', 'webpack-dev', 'stylus', cb)
+})
  
-gulp.task('default', ['build-dev', 'watch'])
+gulp.task('default', function(cb) {
+  run('build-dev', 'watch', 'start', cb)
+})

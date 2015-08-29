@@ -34,10 +34,12 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.0",
+    "gulp-nodemon": "^2.0.4",
     "gulp-stylus": "^2.0.6",
     "jsx-loader": "^0.13.2",
     "nib": "^1.1.0",
     "redux-devtools": "^1.1.1",
+    "run-sequence": "^1.1.2",
     "webpack-stream": "^2.1.0"
   }
 }
