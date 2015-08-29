@@ -14,7 +14,7 @@ This is an example showing you guys how to use React on the server-side, if you 
 ## Todos
 
 - [ ] FLux integating (Reflux)
-- [ ] Choosing a CSS solution (I prefer Stylus for now, not favor writing CSS in JS)
+- [x] Choosing a CSS solution (I prefer Stylus for now, not favor writing CSS in JS)
 
 ## License
 
