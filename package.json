@@ -2,7 +2,7 @@
   "name": "react-server",
   "version": "1.0.0",
   "description": "react server-side using example.",
-  "main": "core/server",
+  "main": "core/server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node bin/www",
