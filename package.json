@@ -2,14 +2,11 @@
   "name": "react-server",
   "version": "1.0.0",
   "description": "react server-side using example.",
-  "main": "bin/www",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node bin/www",
     "build": "gulp build"
-  },
-  "bin": {
-    "react-server": "bin/www"
   },
   "repository": {
     "type": "git",
