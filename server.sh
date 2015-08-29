@@ -1,3 +1,3 @@
 #!/bin/sh
 gulp build
-npm start
+npm run server
